@@ -1,4 +1,7 @@
-# PHP client for ProdWS SOAP Service
+
+# PHP wrapper for ProdWS SOAP Service
+A very simple and naïve wrapper for Deutsche Post's "ProdWS" SOAP Service. Only Implements GetProductList for now, but should be easy to extend.
+
 Deutsche Post provides a SOAP Service called "ProdWS", which is required to get product data to be able to automatically
 create postage stamps via the "OneClickForApp" (1C4A) SOAP Service.
 
@@ -14,4 +17,4 @@ Before you can use the ProdWS service, you need to register via a PDF form. Regi
 The form and all official, really crappy documentation, can be found here: https://www.deutschepost.de/de/i/internetmarke-porto-drucken/downloads.html
 
 # Thank you
-A huge THANK you goes out to @baltpeter, because he saved me a ton of work with his [internetmarke-php](https://github.com/baltpeter/internetmarke-php) package!
+A huge THANK YOU goes out to @baltpeter, because he saved me a ton of work with his [internetmarke-php](https://github.com/baltpeter/internetmarke-php) package!
